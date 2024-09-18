@@ -20,27 +20,30 @@ const page = () => {
         About me
       </Badge>
       <div className="flex flex-col gap-3">
-       
-          <Heading>
-            Software Engineer And Web <br /> Developer, Based In India.
-          </Heading>
-   
-        <FramerWrapper y={0} x={100} >
+        <Heading>
+          Software Engineer And Web <br /> Developer, Based In India.
+        </Heading>
+
+        <FramerWrapper y={0} x={100}>
           <p className=" font-poppins text-xl w-full text-primary max-sm:text-lg">
-            I am a Full Stack Web Developer from Ramgarh cantt, Jharkhand,
+            I am a FrontEnd Web Developer from Jammu & Kashmir , Srinagar,
             India. I love crafting cool web projects and also open-source
             contribuitions. My biggest achievement lies in my mastery of
-            JavaScript and CSS, ensuring pixel-perfect designs that captivate
-            users. With a keen eye for detail and a commitment to delivery
-            speed, I excel at creating seamless and responsive interfaces that
-            leave a lasting impression.
+            JavaScript ,ReactJs,NextJS,React Native and CSS, ensuring
+            pixel-perfect designs that captivate users. With a keen eye for
+            detail and a commitment to delivery speed, I excel at creating
+            seamless and responsive interfaces that leave a lasting impression.
           </p>
         </FramerWrapper>
       </div>
-      <FramerWrapper className="w-full flex flex-row justify-between max-lg:flex-col " y={100} delay={0.30}>
+      {/* <FramerWrapper
+        className="w-full flex flex-row justify-between max-lg:flex-col "
+        y={100}
+        delay={0.3}
+      >
         <Aboutfooter />
-      </FramerWrapper>
-      <FramerWrapper className="block" y={100} delay={0.31}>
+      </FramerWrapper> */}
+      {/* <FramerWrapper className="block" y={100} delay={0.31}>
         <h1 className="gap-2 text-3xl font-poppins text-primary font-semibold flex icon_underline relative max-sm:text-2xl">
           {" "}
           <Heart className="h-8 w-8" /> Hobbies
@@ -57,7 +60,7 @@ const page = () => {
             );
           })}
         </div>
-      </FramerWrapper>
+      </FramerWrapper> */}
     </div>
   );
 };
