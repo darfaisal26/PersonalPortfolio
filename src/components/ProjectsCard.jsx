@@ -15,14 +15,6 @@ import FramerWrapper from "./FramerWrapper";
 import { ArrowUpRight } from "lucide-react";
 
 const ProjectCards = ({ value, num }) => {
-  // const handleClick = (project) => {
-  //   setSelectedProject(project);
-  // };
-
-  // const closeScreenshots = () => {
-  //   setSelectedProject(null);
-  // };
-
   return (
     <>
       <FramerWrapper
