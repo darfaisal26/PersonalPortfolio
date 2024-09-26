@@ -13,19 +13,15 @@ import {
 } from "@/components/ui/card";
 import FramerWrapper from "./FramerWrapper";
 import { ArrowUpRight } from "lucide-react";
-import ProjectScreenshots from "./ProjectScreenshots";
 
 const ProjectCards = ({ value, num }) => {
-  const [showModal, setShowModal] = useState(false);
-  const [selectedProject, setSelectedProject] = useState(null);
+  // const handleClick = (project) => {
+  //   setSelectedProject(project);
+  // };
 
-  const handleClick = (project) => {
-    setSelectedProject(project);
-  };
-
-  const closeScreenshots = () => {
-    setSelectedProject(null);
-  };
+  // const closeScreenshots = () => {
+  //   setSelectedProject(null);
+  // };
 
   return (
     <>
