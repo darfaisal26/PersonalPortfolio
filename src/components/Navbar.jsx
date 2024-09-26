@@ -1,14 +1,6 @@
 "use client";
 import { cn } from "@/lib/utils";
-import {
-  Briefcase,
-  Home,
-  Layers,
-  Lightbulb,
-  PackagePlus,
-  Phone,
-  User2,
-} from "lucide-react";
+import { Briefcase, Home, Layers, Lightbulb, User2 } from "lucide-react";
 import { buttonVariants } from "./ui/button";
 
 import {
@@ -29,8 +21,6 @@ const Navbar = () => {
     { name: "skills", icon: <Lightbulb />, link: "/skills" },
     { name: "projects", icon: <Layers />, link: "/projects" },
     { name: "work", icon: <Briefcase />, link: "/education" },
-    // { name: "more", icon: <PackagePlus />, link: "/more" },
-    // { name: "contact", icon: <Phone />, link: "/contact" },
   ];
 
   const [scrolling, setScrolling] = useState(false);

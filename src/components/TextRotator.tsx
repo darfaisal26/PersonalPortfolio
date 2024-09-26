@@ -1,14 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function TextRotator() {
   return (
-   
-    <div
-    className="py-4  rounded-md flex flex-col justify-center items-center overflow-hidden"
-  >
-    <div className="font-poppins text-base sm:text-2xl [text-wrap:balance] text-gray-700">
-    I am a Software Developer &
-      <span
+    <div className="py-4  rounded-md flex flex-col justify-center items-center overflow-hidden">
+      <div className="font-poppins text-base sm:text-2xl [text-wrap:balance] text-gray-700">
+        I am a Software Developer
+        {/* <span
         className="inline-flex ml-2 flex-col h-[calc(theme(fontSize.lg)*theme(lineHeight.tight))] sm:h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] overflow-hidden"
       >
         <ul
@@ -21,10 +18,10 @@ function TextRotator() {
           <li className="text-[#2f7df4]">Student</li>
           <li className="text-[#2f7df4]">Contributer</li>
         </ul>
-      </span>
+      </span> */}
+      </div>
     </div>
-  </div>
-  )
+  );
 }
 
-export default TextRotator
+export default TextRotator;
