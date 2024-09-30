@@ -35,7 +35,7 @@ const educationPage = () => {
               and Commerce
             </div>
             <p className=" font-poppins text-base w-full text-primary  max-sm:text-xs">
-              I have done Masters of Computer Application form AIslamia College
+              I have done Masters of Computer Application form Islamia College
               of Science and Commerce. The program has provided me with a
               well-rounded education, covering both theoretical foundations and
               practical applications of computer science.
